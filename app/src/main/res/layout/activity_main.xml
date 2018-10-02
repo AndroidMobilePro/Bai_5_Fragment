@@ -36,24 +36,18 @@
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/frContain1"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-
-        <FrameLayout
             android:id="@+id/frContain2"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:visibility="gone">
-
-            <fragment
-                android:id="@+id/fragmentAdd"
-                android:name="proteam.com.bai_5_fragment.TwoFragment"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
         </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frContain1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
     </LinearLayout>
 
 </LinearLayout>
